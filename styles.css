@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(97, 78, 78);
+    color:aliceblue;
+}
+    h1 {
+        color: darkorange;
+  
+    
+    .lower-section-top img {
+      max-width: 30%;  
+
+    }
+    .lower-section-top h2 {
+    float: left;
+
+      }
+    .lower-section-middle img {
+        max-width: 40%; 
+   
+      }
+
+      .lower-section-middle h2 {
+        float: right;
+      }
+
+      .lower-section-bot img {
+        max-width: 30%;  
+      }
+      .lower-section-bot h2 {
+        float: left;
+      }
