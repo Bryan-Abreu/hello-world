@@ -43,3 +43,27 @@ function askUser(user) {
 }
 
 askUser(usersName);
+
+
+let guessWord = "";
+let correctWord = "240sandshorties"
+do {
+guessWord = prompt("please write the word 240sandshorties");
+} while (guessWord != correctWord)  {
+    if (guessWord == correctWord) {
+       alert("correct word");
+    }
+
+} 
+function rateMyPage(){
+    let rating = prompt("How many chassis from 1-5 would you rate my page?");
+    console.log(rating);
+
+    for(let i = 0; i < rating && i < 5; i++) {
+        console.log(i);
+        document.write('<img style="width:100px;" src="schassis fronts.jpg" alt="240" />');
+    }
+
+}
+rateMyPage();
+
